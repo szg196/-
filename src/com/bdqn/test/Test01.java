@@ -3,8 +3,9 @@ package com.bdqn.test;
 
 public class Test01 {
 	public static void main(String[] args) {
-		System.out.println("µÚ1001´ÎÐÞ¸Ä");
-
-		System.out.println("ÁõÄþÐÞ¸ÄÁË");
+		System.out.println("ï¿½ï¿½1001ï¿½ï¿½ï¿½Þ¸ï¿½");
+       
+		System.out.println("è¿™æ˜¯æˆ‘å†™çš„");
+		System.out.println("ï¿½ï¿½ï¿½ï¿½ï¿½Þ¸ï¿½ï¿½ï¿½");
 	}
 }
