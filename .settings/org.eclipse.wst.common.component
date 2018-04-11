@@ -2,6 +2,7 @@
     <wb-module deploy-name="60TeamProject_TransportRisk">
         <wb-resource deploy-path="/" source-path="/WebContent" tag="defaultRootSource"/>
         <wb-resource deploy-path="/WEB-INF/classes" source-path="/src"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/resources"/>
         <property name="context-root" value="60TeamProject_TransportRisk"/>
         <property name="java-output-path" value="/60TeamProject_TransportRisk/build/classes"/>
     </wb-module>
