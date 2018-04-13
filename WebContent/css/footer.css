@@ -1,0 +1,27 @@
+footer {
+	height: 175px;
+	width: 100%;
+}
+
+#foot_center {
+	height: 175px;
+}
+
+#foot_center_t img {
+	height: 30px;
+	width: 30px;
+}
+
+#foot_center div {
+	height: 33%;
+	font-size: 20px;
+}
+
+#foot_right {
+	height: 100%;
+}
+
+#foot_right img {
+	height: 100%;
+	width: 100%;
+}

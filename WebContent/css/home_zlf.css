@@ -1,0 +1,329 @@
+#title-name-col a{
+	color:#ff0000;
+}
+* {
+	padding: 0;
+	margin: 0;
+}
+
+ul {
+	list-style-type: none;
+}
+
+#content {
+	margin: 0 auto;
+}
+
+header {
+	height: 90px;
+	width: 100%;
+	background: white;
+}
+
+.headerImg {
+	height: 100%;
+}
+
+.headerImg img {
+	height: 100%;
+	width: 100%;
+}
+
+#body {
+	height: 900px;
+}
+
+.menu {
+	list-style: none;
+	height: 50px;
+	margin: 0 auto;
+	z-index: 100;
+}
+
+.nav {
+	list-style: none;
+	height: 100%;
+	width: 100%;
+	margin: 0 auto;
+	background-color: #e9413b;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.nav * {
+	text-decoration: none;
+	font-size: 15px;
+}
+
+.nav * a:hover {
+	background-color: #CA0303; /* 榧犳爣缁忚繃鏃剁殑绾㈣壊鑳屾櫙锛屽彲鑷畾涔�*/
+}
+
+.nav li {
+	float: left;
+	height: 100%;
+	width: 12%;
+	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	z-index: 100;
+}
+
+.nav li a {
+	color: #fef3ff;
+	width: 100%;
+	line-height: 100%;
+	font-weight: bold;
+	text-align: center;
+	display: inline-block;
+}
+
+.nav li a:hover {
+	font-weight: bold;
+	font-size: 16px;
+	background: #c30f1d;
+}
+
+.nav li .sub-nav {
+	position: absolute;
+	top: 39px;
+	list-style: none;
+	background-color: #c30f1d;
+	display: none;
+}
+
+#sanji_lin {
+	top: 10px;
+	left: 130px;
+}
+
+.nav li .sub-nav li {
+	text-align: center;
+	clear: left;
+	width: 137px;
+	height: 35px;
+	line-height: 35px;
+	position: relative;
+}
+
+.nav li .sub-nav li a {
+	height: 34px;
+	line-height: 34px;
+	width: 137px;
+	padding: 0;
+	display: inline-block;
+}
+
+#body_nav_left {
+	height: 600px;
+	margin-top: 50px;
+}
+
+#body_Lhd {
+	height: 50px;
+	background: #B22222;
+	color: white;
+	border-radius: 5%;
+	font-size: 20px;
+	font-weight: bold;
+	text-align: center;
+	line-height: 50px;
+}
+
+#body_Lbd {
+	border: 10px solid gainsboro;
+	border-radius: 3%;
+}
+
+.v {
+	float: right;
+	width: 14px;
+	height: 14px;
+	overflow: hidden;
+	display: inline-block;
+	margin-top: -5px;
+	margin-bottom: -5px;
+}
+
+.v01 {
+	background-position: 0 0;
+}
+
+.v02 {
+	background-position: 0 -16px;
+	;
+}
+
+.vtitle {
+	height: 35px;
+	line-height: 35px;
+	font-size: 17px;
+	font-weight: bold;
+	text-align: center;
+	background: #c4c4c4;
+	color: #ffffff;
+	cursor: pointer;
+}
+
+#vtitles {
+	height: 35px;
+	line-height: 35px;
+	font-size: 17px;
+	font-weight: bold;
+	text-align: center;
+	background: #c4c4c4;
+	color: #ffffff;
+}
+
+.vconlist {
+	background: rgba(178, 167, 179, 0.25);
+}
+
+.vconlist li a {
+	height: 30px;
+	line-height: 30px;
+	padding-left: 30px;
+	display: block;
+	font-size: 14px;
+	color: #8a8a8a;
+}
+
+.vconlist li.select a,.vconlist li a:hover {
+	color: #e9413b;
+	font-size: 15px;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+#description {
+	margin: 0px auto;
+	width: 500px;
+	font-size: 14px;
+}
+
+#softwhy a {
+	text-decoration: underline;
+	color: red;
+}
+
+#body_lfd {
+	border: 10px solid gainsboro;
+	border-radius: 6%;
+	height: 130px;
+}
+
+#body_lfd div {
+	height: 33%;
+	border: 1px solid gainsboro;
+	font-size: 17px;
+	font-weight: bold;
+}
+
+#body_lfd img {
+	height: 30px;
+}
+
+#body_nav_right {
+	margin-top: 30px;
+	height: 680px;
+}
+
+#by_rt_hdr {
+	height: 180px;
+	border-bottom: 3px solid gainsboro;
+	font-size: 27px;
+	font-weight: bold;
+	color: #8D1416;
+}
+
+#by_rt_bd {
+	height: 180px;
+	border-bottom: 3px solid gainsboro;
+	font-size: 16px;
+	font-weight: bold;
+	color: #8D1416;
+}
+
+.by_rt_bd_dv {
+	margin-top: 70px;
+	border: 2px solid #f7e1b5;
+	background: #f6f8ed;
+}
+
+#by_rt_bd img {
+	height: 37px;
+}
+
+#by_rt_ftr {
+	height: 180px;
+	font-size: 15px;
+	font-weight: bold;
+	color: #050718;
+}
+
+#by_rt_ftr img {
+	height: 37px;
+}
+
+.btn_ftr_dv {
+	margin-top: 70px;
+	border: 2px solid #e1f8f8;
+}
+
+#by_rt_ftrs1 {
+	font-size: 21px;
+	color: #050718;
+	font-weight: bold;
+}
+
+#by_rt_ftrs {
+	height: 200px;
+	font-size: 13px;
+	font-weight: bold;
+	color: #8D1416;
+}
+
+#by_rt_ftrs2 {
+	margin-top: 50px;
+}
+
+.by_rt_ftrsdv {
+	margin-top: 70px;
+	border: 2px solid #ecd6ac;
+	background: #f6f8ed;
+	margin: 0 auto;
+}
+
+#by_rt_ftrs img {
+	height: 30px;
+}
+
+footer {
+	height: 175px;
+	width: 100%;
+}
+
+#foot_center {
+	height: 175px;
+}
+
+#foot_center_t img {
+	height: 30px;
+	width: 30px;
+}
+
+#foot_center div {
+	height: 33%;
+	font-size: 20px;
+}
+
+#foot_right {
+	height: 100%;
+}
+
+#foot_right img {
+	height: 100%;
+	width: 100%;
+}
