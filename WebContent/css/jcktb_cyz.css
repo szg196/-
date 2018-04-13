@@ -1,0 +1,147 @@
+#title-name-col a{
+	color:#ff0000;
+}
+*{
+            margin: 0;
+            padding: 0;
+        }
+        select {
+            height: 30px;
+            border-radius: 5px;
+            color: #555;
+        }
+        legend {
+            font-weight: bold;
+            color: #426cff;
+            font-size: 18px;
+        }
+        #box fieldset {
+            padding: 0px 10px;
+            border: 1px solid gray;
+        }
+        fieldset {
+            font-size: 13px;
+            color: gray;
+            font-weight: bold;
+            border: 1px solid gray;
+            margin-bottom: 20px;
+            padding: 0px 10px 10px 10px;
+        }
+        fieldset form {
+            font-size: 14px;
+            float: left;
+            width: 50%;
+        }
+
+        textarea{
+            overflow-y: scroll;
+            resize:none;
+        }
+        .leftp {
+            margin-left: 10px;
+        }
+
+
+        #tjbInfo2 label{
+            text-align: left;
+        }
+
+        .tablea {
+            overflow-y:scroll; height: 100px; width:90%; border: 1px solid cornflowerblue;
+
+        }
+        .tablea td{
+            line-height: 15px;
+            height: 15px;
+        }
+        .tablea tr td:first-child{
+            text-align: left;
+            width: 100%;
+        }
+        .tablea tr input{
+            font-size: 20px;
+            zoom: 120%;
+        }
+        .rightmar select{
+            width: 80px;
+            margin-right: 10px;
+        }
+
+        .forma{
+            width: 70%;
+        }
+        .formb{
+            width: 30%;
+        }
+        .formc{
+            width: 100%;
+        }
+        #bxinfo label{
+            text-align: left;
+        }
+         button{
+            text-align: center;
+        }
+
+        .marright {
+            margin-right: 100px;
+        }
+        .w1 {
+            width: 10%;
+            display: inline-block;
+        }
+        .w2 {
+            width: 20%;
+            display: inline-block;
+        }
+        .w3 {
+            width: 30%;
+            display: inline-block;
+        }
+        .w4 {
+            width: 40%;
+            display: inline-block;
+        }
+        .w5 {
+            width: 50%;
+            display: inline-block;
+        }
+
+        .w6 {
+            width: 60%;
+            display: inline-block;
+        }
+        #mblUp {
+            background-color: #FFFFFF;
+            padding: 8px 8px 1px 8px;
+            border-radius: 10px;
+        }
+
+        #mblUp #mbluBar li {
+            list-style: none;
+            text-align: center;
+            background-color: #F4F9FD;
+            color: gray;
+            padding: 8px;
+            font-weight: bolder;
+            margin-bottom: 5px;
+            border-radius: 10px;
+            font-size: 16px;
+            font-family: "Î¢ÈíÑÅºÚ Light";
+        }
+
+        #mblUp #mbluBar li:hover {
+            color: white;
+            background-color: rgba(1, 1, 1, 0.25);
+            cursor: pointer;
+            transition: all .2s linear;
+        }
+        #mbLeft {
+            padding: 10px;
+            background-color: #f7f7f7;
+            border-radius: 10px;
+        }
+
+        .tb a{
+            color: darkred;
+        }

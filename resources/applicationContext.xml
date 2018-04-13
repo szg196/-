@@ -52,6 +52,8 @@
         </property>
     </bean>
     
+    
+    
     <!-- 配置DAO -->
     <bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
     	<property name="basePackage" value="com.tangcco.dao"></property>

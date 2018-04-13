@@ -1,0 +1,174 @@
+#title-name-col a{
+	color:#ff0000;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+
+legend {
+    font-weight: bold;
+    color: #426cff;
+    font-size: 18px;
+}
+
+select {
+    border-radius: 5px;
+}
+
+fieldset {
+    font-size: 13px;
+    color: gray;
+    font-weight: bold;
+    border: 1px solid gray;
+    margin-bottom: 20px;
+    padding: 0px 10px 10px 10px;
+}
+
+#gntb #tjbInfo form {
+    float: left;
+    width: 50%;
+}
+
+#gntb #hwInfo form {
+    float: left;
+    margin-right: 5%;
+}
+
+#gntb #hwInfo form .js {
+    float: left;
+    width: 130px;
+    margin-right: 10px;
+}
+
+#gntb #hwInfo form .bz {
+    float: left;
+    width: 100px;
+}
+
+#gntb #hwInfo form select {
+    width: 240px;
+    margin-bottom: 14px;
+}
+
+#gntb #ysInfo form {
+    margin-bottom: 10px;
+}
+
+#gntb #ysInfo form .ysfs {
+    width: 80px;
+    border-radius: 5px;
+}
+
+#gntb #ysInfo #ysgjmc {
+    width: 150px;
+}
+
+#gntb #ysInfo #hbc {
+    width: 150px;
+}
+
+#gntb #ysInfo form #z, #jg, #d, #nyr {
+    width: 135px;
+}
+
+#gntb #ysInfo form #xs {
+    width: 50px;
+}
+
+#gntb #ysInfo #select_zyjjbf {
+    width: 120px;
+}
+
+#gntb #ysInfo #text_zyjjbf {
+    width: 74%;
+}
+
+#gntb #bxtk .zxtk {
+    width: 25%;
+}
+
+#gntb #bxtk form {
+    margin-bottom: 10px;
+}
+
+#gntb #bxtk .fjtk {
+    overflow-y: auto;
+    height: 115px;
+    width: 300px;
+    border: 1px solid #f0f0f0;
+    padding: 10px;
+    float: left;
+    border-radius: 5px;
+}
+
+#gntb #bxtk .fjtk a {
+    color: darkred;
+    text-decoration: none;
+}
+
+#gntb #bxtk .fjtk:hover {
+    border-color: #66afe9;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(102, 175, 233, .6);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(102, 175, 233, .6);
+}
+
+#gntb #bxtk .fjtk .checkbox {
+    float: right;
+}
+
+#gntb #bxtk .fjtk a:hover {
+    text-decoration: underline;
+}
+
+#gntb #bxtk .fjxtknr {
+    float: left;
+    margin-left: 2%;
+}
+
+#gntb #mbLeft {
+    padding: 10px;
+    background-color: #f7f7f7;
+    border-radius: 10px;
+}
+
+#gntb #mbLeft #mblUp {
+    background-color: #FFFFFF;
+    padding: 8px 8px 1px 8px;
+    border-radius: 10px;
+}
+
+#gntb #mbLeft #mblUp #mbluBar li {
+    list-style: none;
+    text-align: center;
+    background-color: #F4F9FD;
+    color: gray;
+    padding: 8px;
+    font-weight: bolder;
+    margin-bottom: 5px;
+    border-radius: 10px;
+    font-size: 16px;
+    font-family: "微软雅黑 Light";
+}
+
+#gntb #mbLeft #mblUp #mbluBar li:hover {
+    color: white;
+    background-color: rgba(1, 1, 1, 0.25);
+    cursor: pointer;
+    transition: all .2s linear;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
