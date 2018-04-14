@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+	PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+	"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.tangcco.mapper.InlandMapper">
+	<insert id="insertInland">
+		insert into inland
+		<trim prefix="("  suffix=")" suffixOverrides=",">
+			id,
+			<if test="inland.tbName!=null and inland.tbName!=''">tbName,</if>
+			<if test="inland.tbAddress!=null and inland.tbAddress!=''">tbAddress,</if>
+			<if test="inland.btbName!=null and inland.btbName!=''">btbName,</if>
+			<if test="inland.btbAddress!=null and inland.btbAddress!=''">btbAddress,</if>
+			<if test="inland.cNum!=null and inland.cNum!=''">cNum,</if>
+			<if test="inland.cName!=null and inland.cName!=''">cName,</if>
+			<if test="inland.weight!=null and inland.weight!=''">weight,</if>
+			<if test="inland.bigId!=null and inland.bigId!=0">bigId,</if>
+			<if test="inland.smallId!=null and inland.smallId!=0">smallId,</if>
+			<if test="inland.casesNum!=null and inland.casesNum!=0">casesNum,</if>
+			<if test="inland.transport!=null and inland.transport!=0">transport,</if>
+			<if test="inland.transportName!=null and inland.transportName!=''">transportName,</if>
+			<if test="inland.banci!=null and inland.banci!=''">banci,</if>
+			<if test="inland.lineFrom!=null and inland.lineFrom!=''">lineFrom,</if>
+			<if test="inland.linePass!=null and inland.linePass!=''">linePass,</if>
+			<if test="inland.lineArrive!=null and inland.lineArrive!=''">lineArrive,</if>
+			<if test="inland.disputeType!=null and inland.disputeType!=0">disputeType,</if>
+			<if test="inland.disputeSolve!=null and inland.disputeSolve!=0">disputeSolve,</if>
+			<if test="inland.zId!=null and inland.zId!=0">zId,</if>
+			<if test="inland.fId!=null and inland.fId!=0">fId,</if>
+			<if test="inland.insureCurrency!=null and inland.insureCurrency!=0">insureCurrency,</if>
+			<if test="inland.money!=null and inland.money!=''">money,</if>
+			<if test="inland.rate!=null and inland.rate!=''">rate,</if>
+			<if test="inland.premium!=null and inland.premium!=''">premium,</if>
+			<if test="inland.excess!=null and inland.excess!=''">excess,</if>
+			<if test="inland.signingDate!=null and inland.signingDate!=''">signingDate,</if>
+			<if test="inland.specialAppoint!=null and inland.specialAppoint!=''">specialAppoint,</if>
+			<if test="inland.clearingWay!=null and inland.clearingWay!=0">clearingWay,</if>
+			<if test="inland.sendWay!=null and inland.sendWay!=0">sendWay,</if>
+			<if test="inland.invoiceRise!=null and inland.invoiceRise!=''">invoiceRise,</if>
+			<if test="inland.clearingCurrency!=null and inland.clearingCurrency!=0">clearingCurrency,</if>
+			<if test="inland.code!=null and inland.code!=0">code,</if>
+			<if test="inland.status!=null and inland.status!=0">status,</if>
+		</trim>
+		values
+		<trim prefix="("  suffix=")" suffixOverrides=",">
+			#{inland.id},
+			<if test="inland.tbName!=null and inland.tbName!=''">#{inland.tbName},</if>
+			<if test="inland.tbAddress!=null and inland.tbAddress!=''">#{inland.tbAddress},</if>
+			<if test="inland.btbName!=null and inland.btbName!=''">#{inland.btbName},</if>
+			<if test="inland.btbAddress!=null and inland.btbAddress!=''">#{inland.btbAddress},</if>
+			<if test="inland.cNum!=null and inland.cNum!=''">#{inland.cNum},</if>
+			<if test="inland.cName!=null and inland.cName!=''">#{inland.cName},</if>
+			<if test="inland.weight!=null and inland.weight!=''">#{inland.weight},</if>
+			<if test="inland.bigId!=null and inland.bigId!=0">#{inland.bigId},</if>
+			<if test="inland.smallId!=null and inland.smallId!=0">#{inland.smallId},</if>
+			<if test="inland.casesNum!=null and inland.casesNum!=0">#{inland.casesNum},</if>
+			<if test="inland.transport!=null and inland.transport!=0">#{inland.transport},</if>
+			<if test="inland.transportName!=null and inland.transportName!=''">#{inland.transportName},</if>
+			<if test="inland.banci!=null and inland.banci!=''">#{inland.banci},</if>
+			<if test="inland.lineFrom!=null and inland.lineFrom!=''">#{inland.ineFrom},</if>
+			<if test="inland.linePass!=null and inland.linePass!=''">#{inland.linePass},</if>
+			<if test="inland.lineArrive!=null and inland.lineArrive!=''">#{inland.lineArrive},</if>
+			<if test="inland.disputeType!=null and inland.disputeType!=0">#{inland.disputeType},</if>
+			<if test="inland.disputeSolve!=null and inland.disputeSolve!=0">#{inland.disputeSolve},</if>
+			<if test="inland.zId!=null and inland.zId!=0">#{inland.zId},</if>
+			<if test="inland.fId!=null and inland.fId!=0">#{inland.fId},</if>
+			<if test="inland.insureCurrency!=null and inland.insureCurrency!=0">#{inland.insureCurrency},</if>
+			<if test="inland.money!=null and inland.money!=''">#{inland.money},</if>
+			<if test="inland.rate!=null and inland.rate!=''">#{inland.rate},</if>
+			<if test="inland.premium!=null and inland.premium!=''">#{inland.premium},</if>
+			<if test="inland.excess!=null and inland.excess!=''">#{inland.excess},</if>
+			<if test="inland.signingDate!=null and inland.signingDate!=''">#{inland.signingDate},</if>
+			<if test="inland.specialAppoint!=null and inland.specialAppoint!=''">#{inland.specialAppoint},</if>
+			<if test="inland.clearingWay!=null and inland.clearingWay!=0">#{inland.clearingWay},</if>
+			<if test="inland.sendWay!=null and inland.sendWay!=0">#{inland.sendWay},</if>
+			<if test="inland.invoiceRise!=null and inland.invoiceRise!=''">#{inland.invoiceRise},</if>
+			<if test="inland.clearingCurrency!=null and inland.clearingCurrency!=0">#{inland.clearingCurrency},</if>
+			<if test="inland.code!=null and inland.code!=0">#{inland.code},</if>
+			<if test="inland.status!=null and inland.status!=0">#{inland.status},</if>
+		</trim>
+		
+	</insert>
+</mapper>
