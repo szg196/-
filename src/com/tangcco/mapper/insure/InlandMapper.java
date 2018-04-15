@@ -1,5 +1,5 @@
 //by 陈亚洲
-package com.tangcco.mapper;
+package com.tangcco.mapper.insure;
 
 import com.tangcco.pojo.Inland;
 

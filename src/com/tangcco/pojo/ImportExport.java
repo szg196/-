@@ -1,3 +1,4 @@
+//by 罗皖西
 package com.tangcco.pojo;
 
 
@@ -15,10 +16,10 @@ public class ImportExport {
   private String cName;
   private Integer casesNum;
   private String packing;
-  private long bigId;
-  private long smallId;
-  private long transportRange;
-  private long transport;
+  private Integer bigId;
+  private Integer smallId;
+  private Integer transportRange;
+  private Integer transport;
   private String transportName;
   private String banci;
   private String lineFrom;
@@ -156,38 +157,38 @@ public class ImportExport {
   }
 
 
-  public long getBigId() {
+  public Integer getBigId() {
     return bigId;
   }
 
-  public void setBigId(long bigId) {
+  public void setBigId(Integer bigId) {
     this.bigId = bigId;
   }
 
 
-  public long getSmallId() {
+  public Integer getSmallId() {
     return smallId;
   }
 
-  public void setSmallId(long smallId) {
+  public void setSmallId(Integer smallId) {
     this.smallId = smallId;
   }
 
 
-  public long getTransportRange() {
+  public Integer getTransportRange() {
     return transportRange;
   }
 
-  public void setTransportRange(long transportRange) {
+  public void setTransportRange(Integer transportRange) {
     this.transportRange = transportRange;
   }
 
 
-  public long getTransport() {
+  public Integer getTransport() {
     return transport;
   }
 
-  public void setTransport(long transport) {
+  public void setTransport(Integer transport) {
     this.transport = transport;
   }
 

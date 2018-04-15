@@ -43,7 +43,7 @@
 		</trim>
 		values
 		<trim prefix="("  suffix=")" suffixOverrides=",">
-			#{inland.id},
+			0,
 			<if test="inland.tbName!=null and inland.tbName!=''">#{inland.tbName},</if>
 			<if test="inland.tbAddress!=null and inland.tbAddress!=''">#{inland.tbAddress},</if>
 			<if test="inland.btbName!=null and inland.btbName!=''">#{inland.btbName},</if>
