@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+	PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+	"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.tangcco.mapper.ImportExportMapper">
+	 <!--添加进出口投保信息-->
+    <insert id="insertImportExport">
+        insert into import_export
+        <trim prefix="(" suffix=")" suffixOverrides=",">
+            id,
+            <if test="tbName!=null and tbName!=''">
+                tbName,
+            </if>
+            <if test="btbName!=null and btbName!=''">
+                btbName,
+            </if>
+            <if test="tbAddress!=null and tbAddress!=''">
+                tbAddress,
+            </if>
+            <if test="btbAddress!=null and btbAddress!=''">
+                btbAddress,
+            </if>
+            <if test="invoiceNum!=null and invoiceNum!=''">
+                invoiceNum,
+            </if>
+            <if test="ladingNum!=null and ladingNum!=''">
+                ladingNum,
+            </if>
+            <if test="contractNum!=null and contractNum!=''">
+                contractNum,
+            </if>
+            <if test="biaoji!=null and biaoji!=''">
+                biaoji,
+            </if>
+            <if test="cName!=null and cName!=''">
+                cName,
+            </if>
+            <if test="casesNum!=null and casesNum>0">
+                casesNum,
+            </if>
+            <if test="packing!=null and packing!=''">
+                packing,
+            </if>
+            <if test="bigId!=null and bigId>0">
+                bigId,
+            </if>
+            <if test="smallId!=null and smallId>0">
+                smallId,
+            </if>
+            <if test="transportRange!=null and transportRange>0">
+                transportRange,
+            </if>
+            <if test="transport!=null and transport>0">
+                transport,
+            </if>
+            <if test="transportName!=null and transportName!=''">
+                transportName,
+            </if>
+            <if test="banci!=null and banci!=''">
+                banci,
+            </if>
+            <if test="lineFrom!=null and lineFrom!=''">
+                lineFrom,
+            </if>
+            <if test="linePass!=null and linePass!=''">
+                linePass,
+            </if>
+            <if test="lineArrive!=null and lineArrive!=''">
+                lineArrive,
+            </if>
+            <if test="claims!=null and claims>0">
+                claims,
+            </if>
+            <if test="aId!=null and aId>0">
+                aId,
+            </if>
+            <if test="zId!=null and zId>0">
+                zId,
+            </if>
+            <if test="fId!=null and fId>0">
+                fId,
+            </if>
+            <if test="creditNum!=null and creditNum!=''">
+                creditNum,
+            </if>
+            <if test="copiesDescription!=null and copiesDescription!=''">
+                copiesDescription,
+            </if>
+            <if test="insureCurrency!=null and insureCurrency>0">
+                insureCurrency,
+            </if>
+            <if test="priceCondition!=null and priceCondition>0">
+                priceCondition,
+            </if>
+            <if test="invoiceMoney!=null and invoiceMoney!=''">
+                invoiceMoney,
+            </if>
+            <if test="additionRatio!=null and additionRatio!=''">
+                additionRatio,
+            </if>
+            <if test="money!=null and money!=''">
+                money,
+            </if>
+            <if test="rate!=null and rate!=''">
+                rate,
+            </if>
+            <if test="premium!=null and premium!=''">
+                premium,
+            </if>
+            <if test="indemnityCurrency!=null and indemnityCurrency!=''">
+                indemnityCurrency,
+            </if>
+            <if test="indemnityAddress!=null and indemnityAddress!=''">
+                indemnityAddress,
+            </if>
+            <if test="clearingCurrency!=null and clearingCurrency>0">
+                clearingCurrency,
+            </if>
+            <if test="mClearingCurrency!=null and mClearingCurrency!=''">
+                mClearingCurrency,
+            </if>
+            <if test="signingDate!=null and signingDate!=''">
+                signingDate,
+            </if>
+            <if test="shippingDate!=null and shippingDate!=''">
+                shippingDate,
+            </if>
+            <if test="specialAppoint!=null and specialAppoint!=''">
+                specialAppoint,
+            </if>
+            <if test="code!=null and code!=''">
+                code,
+            </if>
+            <if test="status!=null and status>0">
+                status,
+            </if>
+        </trim>
+        <trim prefix="values (" suffix=")" suffixOverrides=",">
+            0,
+            <if test="tbName!=null and tbName!=''">
+                #{tbName},
+            </if>
+            <if test="btbName!=null and btbName!=''">
+                #{btbName},
+            </if>
+            <if test="tbAddress!=null and tbAddress!=''">
+                #{tbAddress},
+            </if>
+            <if test="btbAddress!=null and btbAddress!=''">
+                #{btbAddress},
+            </if>
+            <if test="invoiceNum!=null and invoiceNum!=''">
+                #{invoiceNum},
+            </if>
+            <if test="ladingNum!=null and ladingNum!=''">
+                #{ladingNum},
+            </if>
+            <if test="contractNum!=null and contractNum!=''">
+                #{contractNum},
+            </if>
+            <if test="biaoji!=null and biaoji!=''">
+                #{biaoji},
+            </if>
+            <if test="cName!=null and cName!=''">
+                #{cName},
+            </if>
+            <if test="casesNum!=null and casesNum>0">
+                #{casesNum},
+            </if>
+            <if test="packing!=null and packing!=''">
+                #{packing},
+            </if>
+            <if test="bigId!=null and bigId>0">
+                #{bigId},
+            </if>
+            <if test="smallId!=null and smallId>0">
+                #{smallId},
+            </if>
+            <if test="transportRange!=null and transportRange>0">
+                #{transportRange},
+            </if>
+            <if test="transport!=null and transport>0">
+                #{transport},
+            </if>
+            <if test="transportName!=null and transportName!=''">
+                #{transportName},
+            </if>
+            <if test="banci!=null and banci!=''">
+                #{banci},
+            </if>
+            <if test="lineFrom!=null and lineFrom!=''">
+                #{lineFrom},
+            </if>
+            <if test="linePass!=null and linePass!=''">
+                #{linePass},
+            </if>
+            <if test="lineArrive!=null and lineArrive!=''">
+                #{lineArrive},
+            </if>
+            <if test="claims!=null and claims>0">
+                #{claims},
+            </if>
+            <if test="aId!=null and aId>0">
+                #{aId},
+            </if>
+            <if test="zId!=null and zId>0">
+                #{zId},
+            </if>
+            <if test="fId!=null and fId>0">
+                #{fId},
+            </if>
+            <if test="creditNum!=null and creditNum!=''">
+                #{creditNum},
+            </if>
+            <if test="copiesDescription!=null and copiesDescription!=''">
+                #{copiesDescription},
+            </if>
+            <if test="insureCurrency!=null and insureCurrency>0">
+                #{insureCurrency},
+            </if>
+            <if test="priceCondition!=null and priceCondition>0">
+                #{priceCondition},
+            </if>
+            <if test="invoiceMoney!=null and invoiceMoney!=''">
+                #{invoiceMoney},
+            </if>
+            <if test="additionRatio!=null and additionRatio!=''">
+                #{additionRatio},
+            </if>
+            <if test="money!=null and money!=''">
+                #{money},
+            </if>
+            <if test="rate!=null and rate!=''">
+                #{rate},
+            </if>
+            <if test="premium!=null and premium!=''">
+                #{premium},
+            </if>
+            <if test="indemnityCurrency!=null and indemnityCurrency!=''">
+                #{indemnityCurrency},
+            </if>
+            <if test="indemnityAddress!=null and indemnityAddress!=''">
+                #{indemnityAddress},
+            </if>
+            <if test="clearingCurrency!=null and clearingCurrency>0">
+                #{clearingCurrency},
+            </if>
+            <if test="mClearingCurrency!=null and mClearingCurrency!=''">
+                #{mClearingCurrency},
+            </if>
+            <if test="signingDate!=null and signingDate!=''">
+                #{signingDate},
+            </if>
+            <if test="shippingDate!=null and shippingDate!=''">
+                #{shippingDate},
+            </if>
+            <if test="specialAppoint!=null and specialAppoint!=''">
+                #{specialAppoint},
+            </if>
+            <if test="code!=null and code!=''">
+                #{code},
+            </if>
+            <if test="status!=null and status>0">
+                #{status},
+            </if>
+        </trim>
+    </insert>
+	
+</mapper>	
