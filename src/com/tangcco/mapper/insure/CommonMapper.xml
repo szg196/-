@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- By罗皖西 -->
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.tangcco.mapper.insure.CommonMapper">
+    <!--查询所有大类型-->
+    <select id="selectBigType" resultType="BigType">
+        select * from big_type
+    </select>
+    <!--查询所有小类型-->
+    <select id="selectSmallType" resultType="SmallType">
+        select * from small_type
+    </select>
+    <!--查询大类型对应的小类型信息-->
+    <select id="selectSmallTypeByBigType" resultType="SmallType">
+        select * from small_type where bid=#{bid}
+    </select>
+</mapper>
