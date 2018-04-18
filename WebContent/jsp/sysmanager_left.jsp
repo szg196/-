@@ -8,23 +8,23 @@
             <div id="title-name-col"  style="height: 180px">
                 <div class="box-app-col">
                     <span class="more-img"><img src="/60TeamProject_TransportRisk/img/more.png" width="9"></span>
-                    <span class="more-text"><strong>·</strong>&nbsp;&nbsp;<a href="/60TeamProject_TransportRisk/jsp/XiGaiMiMa.jsp">修改密码</a></span>
+                    <span class="more-text"><strong>·</strong>&nbsp;&nbsp;<a href="/60TeamProject_TransportRisk/jsp/modifypassword.jsp">修改密码</a></span>
                 </div>
                 <div class="box-pol-col">
                     <span class="more-img"><img src="/60TeamProject_TransportRisk/img/more.png" width="9"></span>
-                    <span class="more-text"><strong>·</strong>&nbsp;&nbsp;<a href="/60TeamProject_TransportRisk/jsp/dayingpeizhiwenjian.jsp">打印配置文件</a></span>
+                    <span class="more-text"><strong>·</strong>&nbsp;&nbsp;<a href="/60TeamProject_TransportRisk/jsp/printword.jsp  ">打印配置文件</a></span>
                 </div>
                 <div class="box-pol-col">
                     <span class="more-img"><img src="/60TeamProject_TransportRisk/img/more.png" width="9"></span>
-                    <span class="more-text"><strong>·</strong>&nbsp;&nbsp;<a href="/60TeamProject_TransportRisk/jsp/dayinshezhi.jsp">打印设置</a></span>
+                    <span class="more-text"><strong>·</strong>&nbsp;&nbsp;<a href="/60TeamProject_TransportRisk/jsp/printsetup.jsp">打印设置</a></span>
                 </div>
                 <div class="box-pol-col">
                     <span class="more-img"><img src="/60TeamProject_TransportRisk/img/more.png" width="9"></span>
-                    <span class="more-text"><strong>·</strong>&nbsp;&nbsp;<a href="/60TeamProject_TransportRisk/jsp/qiyunriqi.jsp">设置起运日期</a></span>
+                    <span class="more-text"><strong>·</strong>&nbsp;&nbsp;<a href="/60TeamProject_TransportRisk/jsp/setupdeparturedate.jsp">设置起运日期</a></span>
                 </div>
                  <div class="box-pol-col">
                     <span class="more-img"><img src="/60TeamProject_TransportRisk/img/more.png" width="9"></span>
-                    <span class="more-text"><strong>·</strong>&nbsp;&nbsp;<a href="/60TeamProject_TransportRisk/jsp/shezhiqiyunriqi2.jsp">设置理赔地</a></span>
+                    <span class="more-text"><strong>·</strong>&nbsp;&nbsp;<a href="#">设置理赔地</a></span>
                 </div>
                  <div class="box-pol-col">
                     <span class="more-img"><img src="/60TeamProject_TransportRisk/img/more.png" width="9"></span>

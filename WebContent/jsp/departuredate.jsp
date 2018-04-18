@@ -19,7 +19,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
   <body>
     <div id="box" class="container">
     <div class="row">
-        <%@ include file="xtgl_left.jsp" %>
+        <%@ include file="sysmanager_left.jsp" %>
         <div class="col-md-9">
 					<fieldset id="tjbInfo" style="height: 150px;">
 						<legend>设置起运日期</legend>

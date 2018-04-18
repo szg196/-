@@ -18,7 +18,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
   <body>
     <div id="box" class="container">
     <div class="row">
-        <%@include file="cxgl_left.jsp" %>
+        <%@include file="selectmanagerleft.jsp" %>
         <div class="col-md-9" id="col-md">
             <fieldset id="tjbInfo">
                 <legend>请输入查询条件</legend>

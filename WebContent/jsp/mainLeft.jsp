@@ -16,15 +16,15 @@
 		</div>
 		<div class="vcon">
 			<ul class="vconlist clearfix">
-				<li class=""><a href="/60TeamProject_TransportRisk/jsp/gntb_ln.jsp">国内投保</a></li>
-				<li><a href="/60TeamProject_TransportRisk/jsp/jcktb_cyz.jsp">进出口投保</a></li>
-				<li><a href="/60TeamProject_TransportRisk/jsp/applicationForm1.jsp">投保单修改</a></li>
-				<li><a href="/60TeamProject_TransportRisk/jsp/applicationForm1.jsp">投保单撤销</a></li>
-				<li><a href="/60TeamProject_TransportRisk/jsp/applicationForm1.jsp">批改申请书</a></li>
-				<li><a href="/60TeamProject_TransportRisk/jsp/applicationForm1.jsp">批改申请书修改</a></li>
-				<li><a href="/60TeamProject_TransportRisk/jsp/applicationForm1.jsp">批改申请书撤销</a></li>
-				<li><a href="/60TeamProject_TransportRisk/jsp/applicationForm1.jsp">退保申请</a></li>
-				<li><a href="/60TeamProject_TransportRisk/jsp/applicationForm1.jsp">便捷处理</a></li>
+				<li class=""><a href="/60TeamProject_TransportRisk/jsp/domestic.jsp ">国内投保</a></li>
+				<li><a href="/60TeamProject_TransportRisk/jsp/importandexport.jsp">进出口投保</a></li>
+				<li><a href="/60TeamProject_TransportRisk/jsp/appcorrection.jsp">投保单修改</a></li>
+				<li><a href="/60TeamProject_TransportRisk/jsp/appcorrection.jsp">投保单撤销</a></li>
+				<li><a href="/60TeamProject_TransportRisk/jsp/appcorrection.jsp">批改申请书</a></li>
+				<li><a href="/60TeamProject_TransportRisk/jsp/appcorrection.jsp">批改申请书修改</a></li>
+				<li><a href="/60TeamProject_TransportRisk/jsp/appcorrection.jsp">批改申请书撤销</a></li>
+				<li><a href="/60TeamProject_TransportRisk/jsp/appcorrection.jsp">退保申请</a></li>
+				<li><a href="/60TeamProject_TransportRisk/jsp/appcorrection.jsp">便捷处理</a></li>
 			</ul>
 		</div>
 		<div class="vtitle">
@@ -32,9 +32,9 @@
 		</div>
 		<div class="vcon" style="display: none;">
 			<ul class="vconlist clearfix">
-				<li><a href="/60TeamProject_TransportRisk/jsp/applicationForm.jsp">投保单查询</a></li>
+				<li><a href="/60TeamProject_TransportRisk/jsp/insureselect.jsp">投保单查询</a></li>
 				<li><a href="/60TeamProject_TransportRisk/jsp/policySelect.jsp">保单查询</a></li>
-				<li><a href="/60TeamProject_TransportRisk/jsp/applicationForm.jsp">批改申请书查询</a></li>
+				<li><a href="/60TeamProject_TransportRisk/jsp/appcorrection.jsp">批改申请书查询</a></li>
 			</ul>
 		</div>
 		<div class="vtitle">
@@ -42,8 +42,8 @@
 		</div>
 		<div class="vcon" style="display: none;">
 			<ul class="vconlist clearfix">
-				<li><a href="/60TeamProject_TransportRisk/jsp/zdffls_qd.jsp">单证发放历史</a></li>
-				<li><a href="/60TeamProject_TransportRisk/jsp/zdsyqkcx_qd.jsp">单证使用情况查询</a></li>
+				<li><a href="/60TeamProject_TransportRisk/jsp/documentshistory.jsp">单证发放历史</a></li>
+				<li><a href="/60TeamProject_TransportRisk/jsp/documentsuse.jsp">单证使用情况查询</a></li>
 			</ul>
 		</div>
 
@@ -52,11 +52,11 @@
 		</div>
 		<div class="vcon" style="display: none;">
 			<ul class="vconlist clearfix">
-				<li><a href="/60TeamProject_TransportRisk/jsp/XiGaiMiMa.jsp">修改密码</a></li>
-				<li><a href="/60TeamProject_TransportRisk/jsp/dayingpeizhiwenjian.jsp">打印配置文件</a></li>
-				<li><a href="/60TeamProject_TransportRisk/jsp/dayinshezhi.jsp">打印设置</a></li>
-				<li><a href="/60TeamProject_TransportRisk/jsp/qiyunriqi.jsp">设置起运日期</a></li>	
-				<li><a href="/60TeamProject_TransportRisk/jsp/shezhiqiyunriqi2.jsp">设置理赔代理地</a></li>
+				<li><a href="/60TeamProject_TransportRisk/jsp/modifypassword.jsp ">修改密码</a></li>
+				<li><a href="/60TeamProject_TransportRisk/jsp/printword.jsp">打印配置文件</a></li>
+				<li><a href="/60TeamProject_TransportRisk/jsp/printsetup.jsp">打印设置</a></li>
+				<li><a href="/60TeamProject_TransportRisk/jsp/setupdeparturedate.jsp">设置起运日期</a></li>	
+				<li><a href="#">设置理赔代理地</a></li>
 				<li><a href="#">模板管理</a></li>
 			</ul>
 		</div>

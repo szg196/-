@@ -19,7 +19,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
   <body>
     <div id="box" class="container">
     <div class="row">
-    	<%@include file="wstb_left.jsp" %>
+    	<%@include file="insure_left.jsp" %>
         <div class="col-md-9 bgc" id="rightDiv">
             <fieldset id="tjbInfo" >
                 <legend>投保人及被保险人信息</legend>
