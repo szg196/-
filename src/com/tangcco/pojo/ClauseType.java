@@ -1,28 +1,26 @@
 //by 罗皖西
 package com.tangcco.pojo;
 
-
+//条款分类表实体类
 public class ClauseType {
 
-  private Integer aId;
-  private String clauseType;
+	private Integer aId; // id主键
+	private String clauseType; // 条款分类
 
+	public Integer getaId() {
+		return aId;
+	}
 
-  public Integer getAId() {
-    return aId;
-  }
+	public void setaId(Integer aId) {
+		this.aId = aId;
+	}
 
-  public void setAId(Integer aId) {
-    this.aId = aId;
-  }
+	public String getClauseType() {
+		return clauseType;
+	}
 
-
-  public String getClauseType() {
-    return clauseType;
-  }
-
-  public void setClauseType(String clauseType) {
-    this.clauseType = clauseType;
-  }
+	public void setClauseType(String clauseType) {
+		this.clauseType = clauseType;
+	}
 
 }
