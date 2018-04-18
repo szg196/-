@@ -18,7 +18,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
   <body>
     <div id="box" class="container">
     <div class="row">
-        <%@include file="cxgl_left.jsp" %>
+        <%@include file="insure_left.jsp" %>
         <div class="col-md-9" id="col-md">
             <fieldset id="tjbInfo">
                 <legend>请输入查询条件</legend>
@@ -71,7 +71,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
                         <option>修改</option>
                         <option>暂存</option>
                         <option>已撤销</option>
-                        <option>以拒保</option>
+                        <option>以拒保 </option>
                     </select>
                 </form>
             </fieldset>

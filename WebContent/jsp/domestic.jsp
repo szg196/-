@@ -14,7 +14,7 @@
  
     <div id="gntb" class="container">
     <div class="row" id="mainBody">
-        <%@include file="wstb_left.jsp" %>
+        <%@include file="insure_left.jsp" %>
         <div class="col-md-9">
             <fieldset id="tjbInfo">
                 <legend>投保人及被保险人信息</legend>

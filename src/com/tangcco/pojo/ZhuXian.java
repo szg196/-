@@ -4,9 +4,11 @@ package com.tangcco.pojo;
 //主险条款表实体类
 public class ZhuXian {
 
-	private Integer zId;// id主键
+	private Integer zId;//id主键
 	private String zhuXianType;// 主险条款分类
 	private String zhuXianContent;// 主险条款内容
+
+	private Integer aId;// 条款分类id
 
 	public Integer getzId() {
 		return zId;
@@ -32,12 +34,12 @@ public class ZhuXian {
 		this.zhuXianContent = zhuXianContent;
 	}
 
-	public Integer getfId() {
-		return fId;
+	public Integer getaId() {
+		return aId;
 	}
 
-	public void setfId(Integer fId) {
-		this.fId = fId;
+	public void setaId(Integer aId) {
+		this.aId = aId;
 	}
 
 }

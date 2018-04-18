@@ -6,35 +6,35 @@
             <div id="title-name-col" style="height: 240px">
                 <div class="box-app-col">
                     <span class="more-img"><img src="/60TeamProject_TransportRisk/img/more.png" width="9"></span>
-                    <span class="more-text"><strong>·</strong>&nbsp;&nbsp;<a href="/60TeamProject_TransportRisk/jsp/gntb_ln.jsp">国内投保</a></span>
+                    <span class="more-text"><strong>·</strong>&nbsp;&nbsp;<a href="/60TeamProject_TransportRisk/jsp/domestic.jsp">国内投保</a></span>
                 </div>
                 <div class="box-pol-col">
                     <span class="more-img"><img src="/60TeamProject_TransportRisk/img/more.png" width="9"></span>
-                    <span class="more-text"><strong>·</strong>&nbsp;&nbsp;<a href="/60TeamProject_TransportRisk/jsp/jcktb_cyz.jsp">进出口投保</a></span>
+                    <span class="more-text"><strong>·</strong>&nbsp;&nbsp;<a href="/60TeamProject_TransportRisk/jsp/importandexport.jsp">进出口投保</a></span>
                 </div>
                 <div class="box-pol-col">
                     <span class="more-img"><img src="/60TeamProject_TransportRisk/img/more.png" width="9"></span>
-                    <span class="more-text"><strong>·</strong>&nbsp;&nbsp;<a href="/60TeamProject_TransportRisk/jsp/applicationForm1.jsp">投保单修改</a></span>
+                    <span class="more-text"><strong>·</strong>&nbsp;&nbsp;<a href="/60TeamProject_TransportRisk/jsp/appcorrection.jsp">投保单修改</a></span>
                 </div>
                 <div class="box-pol-col">
                     <span class="more-img"><img src="/60TeamProject_TransportRisk/img/more.png" width="9"></span>
-                    <span class="more-text"><strong>·</strong>&nbsp;&nbsp;<a href="/60TeamProject_TransportRisk/jsp/applicationForm1.jsp">投保单撤销</a></span>
+                    <span class="more-text"><strong>·</strong>&nbsp;&nbsp;<a href="/60TeamProject_TransportRisk/jsp/appcorrection.jsp">投保单撤销</a></span>
                 </div>
                 <div class="box-pol-col">
                     <span class="more-img"><img src="/60TeamProject_TransportRisk/img/more.png" width="9"></span>
-                    <span class="more-text"><strong>·</strong>&nbsp;&nbsp;<a href="/60TeamProject_TransportRisk/jsp/applicationForm1.jsp">批改申请书</a></span>
+                    <span class="more-text"><strong>·</strong>&nbsp;&nbsp;<a href="/60TeamProject_TransportRisk/jsp/appcorrection.jsp">批改申请书</a></span>
                 </div>
                 <div class="box-pol-col">
                     <span class="more-img"><img src="/60TeamProject_TransportRisk/img/more.png" width="9"></span>
-                    <span class="more-text"><strong>·</strong>&nbsp;&nbsp;<a href="/60TeamProject_TransportRisk/jsp/applicationForm1.jsp">批改申请书修改</a></span>
+                    <span class="more-text"><strong>·</strong>&nbsp;&nbsp;<a href="/60TeamProject_TransportRisk/jsp/appcorrection.jsp">批改申请书修改</a></span>
                 </div>
                 <div class="box-pol-col">
                     <span class="more-img"><img src="/60TeamProject_TransportRisk/img/more.png" width="9"></span>
-                    <span class="more-text"><strong>·</strong>&nbsp;&nbsp;<a href="/60TeamProject_TransportRisk/jsp/applicationForm1.jsp">批改申请书撤销</a></span>
+                    <span class="more-text"><strong>·</strong>&nbsp;&nbsp;<a href="/60TeamProject_TransportRisk/jsp/appcorrection.jsp">批改申请书撤销</a></span>
                 </div>
                 <div class="box-pol-col">
                     <span class="more-img"><img src="/60TeamProject_TransportRisk/img/more.png" width="9"></span>
-                    <span class="more-text"><strong>·</strong>&nbsp;&nbsp;<a href="/60TeamProject_TransportRisk/jsp/applicationForm1.jsp">退保申请</a></span>
+                    <span class="more-text"><strong>·</strong>&nbsp;&nbsp;<a href="/60TeamProject_TransportRisk/jsp/appcorrection.jsp">退保申请</a></span>
                 </div>
             </div>
 

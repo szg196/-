@@ -19,11 +19,10 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
   <body>
     <div id="box" class="container">
     <div class="row">
-        <%@ include file="xtgl_left.jsp" %>
+        <%@ include file="sysmanager_left.jsp" %>
     	<div class="col-md-9" id="bia">
 		 <table class="table table-striped"  style="text-align: center;">
-            	<tr>
-            		
+            	<tr>          		
             		<td>选择</td>
             		<td>代理代码</td>
             		<td>代理地名称</td>
