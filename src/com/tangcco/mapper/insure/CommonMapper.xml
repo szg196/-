@@ -26,5 +26,5 @@
      <!-- 根据主线id查询附加险条款 -->
      <select id="selectFuXianByZhuXian" resultType="FuXian">
     	select * from fu_xian where zId = #{zId}
-    	</select>
+    </select>
 </mapper>

@@ -1,19 +1,15 @@
 <%@ page language="java" import="java.util.*" pageEncoding="UTF-8"%>
-<%
-String path = request.getContextPath();
-String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.getServerPort()+path+"/";
-%>
 
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <html>
   <head>
-    <base href="<%=basePath%>">
-    
     <title>My JSP 'applicationForm.jsp' starting page</title>
     <link rel="stylesheet" href="/60TeamProject_TransportRisk/css/bootstrap.min.css">
-    <script type="text/javascript" src="/60TeamProject_TransportRisk/js/bootstrap.min.jss"></script>
+    <script type="text/javascript" src="/60TeamProject_TransportRisk/js/bootstrap.min.js"></script>
 	<link rel="stylesheet" type="text/css" href="/60TeamProject_TransportRisk/css/applicationForm.css">
 	<link rel="stylesheet" type="text/css" href="/60TeamProject_TransportRisk/css/jcktb_cyz.css">
+	<script type="text/javascript" src="/60TeamProject_TransportRisk/js/jquery-1.10.2.min.js"></script>
+	<script type="text/javascript" src="/60TeamProject_TransportRisk/js/importandexport.js"></script>
   </head>
   
   <body>
@@ -93,6 +89,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
                             <textarea class="col-sm-5 form-control w4"></textarea>
                             <textarea class="col-sm-3 form-control  leftp" style="width: 25%"></textarea>
                             <select class="col-sm-2.5 leftp">
+                            	<option>有包装</option>
                                 <option>无包装</option>
                             </select>
                         </div>
@@ -108,8 +105,8 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
                             <option value="">无包装</option>
                         </select>
                         <label for="tbrmc" class="col-sm-3">大类列表</label>
-                        <select class="col-sm-7 leftp">
-                            <option>无包装</option>
+                        <select id="big-type" class="col-sm-7 leftp">
+                            
                         </select>
                         <label for="tbrmc" class="col-sm-3">小类列表</label>
                     </div>
