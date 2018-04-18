@@ -71,7 +71,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
                         <option>修改</option>
                         <option>暂存</option>
                         <option>已撤销</option>
-                        <option>以拒保</option>
+                        <option>以拒保 </option>
                     </select>
                 </form>
             </fieldset>
