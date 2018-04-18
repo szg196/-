@@ -6,6 +6,7 @@ public class BigType {
 
 	private Integer id; // id主键
 	private String typeName; // 类型名称
+	
 	private Integer aId;// 条款分类id
 
 	public Integer getaId() {

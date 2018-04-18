@@ -8,6 +8,12 @@
     <link rel="stylesheet" href="/60TeamProject_TransportRisk/css/gntb_ln.css">
     <script type="text/javascript" src="/60TeamProject_TransportRisk/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="/60TeamProject_TransportRisk/css/applicationForm.css">
+    <script type="text/javascript" src="/60TeamProject_TransportRisk/js/jquery-1.10.2.min.js"></script>
+    <script type="text/javascript">
+    	$(function(){
+    		$("#dlList").load("http://localhost:8080/60TeamProject_TransportRisk/common/seletbigtype");
+    	});
+    </script>
   </head>
   
   <body>
