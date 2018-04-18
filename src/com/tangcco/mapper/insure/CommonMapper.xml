@@ -15,4 +15,16 @@
     <select id="selectSmallTypeByBigType" resultType="SmallType">
         select * from small_type where bid=#{bid}
     </select>
+    <!-- 查询所有条款分类 -->
+    <select id="selectClauseTypes" resultType="ClauseType">
+    	select * from clause_type 
+    </select>
+    <!-- 根据条款分类查询主线条款 -->
+    <select id="selectZhuXianByClauseType" resultType="ZhuXian">
+    	select * from  zhu_xian where aId = #{aId}
+    </select>
+     <!-- 根据主线id查询附加险条款 -->
+     <select id="selectFuXianByZhuXian" resultType="FuXian">
+    	select * from fu_xian where zId = #{zId}
+    	</select>
 </mapper>

@@ -7,9 +7,25 @@ public class FuXian {
   private Integer fId;
   private String fuxianType;
   private String fuxianContent;
+  private Integer zId;
 
+  public Integer getfId() {
+	return fId;
+}
 
-  public Integer getFId() {
+public void setfId(Integer fId) {
+	this.fId = fId;
+}
+
+public Integer getzId() {
+	return zId;
+}
+
+public void setzId(Integer zId) {
+	this.zId = zId;
+}
+
+public Integer getFId() {
     return fId;
   }
 
