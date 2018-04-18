@@ -18,7 +18,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
   <body>
   <div id="box" class="container">
     <div class="row">
-        <%@ include file="dzcx_left.jsp" %>
+        <%@ include file="documents_left.jsp" %>
 				<!--右侧查询-->
 				<div class="col-md-9" id="col-md">
 					<fieldset id="tjbInfo">

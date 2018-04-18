@@ -17,8 +17,8 @@
 			<li class=""><a href="#">首页</a></li>
 			<li class=""><a href="#">网上投保</a>
 				<ul class="sub-nav">
-					<li><a href="#">国内投保</a></li>
-					<li><a href="#">进出口投保</a></li>
+					<li><a href="/60TeamProject_TransportRisk/jsp/domestic.jsp">国内投保</a></li>
+					<li><a href="/60TeamProject_TransportRisk/jsp/importandexport.jsp ">进出口投保</a></li>
 					<li><a href="#">投保单修改</a></li>
 					<li><a href="#">投保单撤销</a></li>
 					<li><a href="#">批改申请书</a></li>
@@ -30,9 +30,9 @@
 			</li>
 			<li class=""><a href="#">查询管理</a>
 				<ul class="sub-nav">
-					<li><a href="#">投保单查询</a></li>
-					<li><a href="#">保单查询</a></li>
-					<li><a href="#">批改申请书查询</a></li>
+					<li><a href="/60TeamProject_TransportRisk/jsp/insureselect.jsp">投保单查询</a></li>
+					<li><a href="/60TeamProject_TransportRisk/jsp/policySelect.jsp">保单查询</a></li>
+					<li><a href="/60TeamProject_TransportRisk/jsp/appcorrection.jsp">批改申请书查询</a></li>
 				</ul>
 			</li>
 			<li class=""><a href="#">单证查询</a>

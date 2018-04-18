@@ -19,7 +19,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
   <body>
     <div id="box" class="container">
     <div class="row">
-        <%@ include file="xtgl_left.jsp" %>
+        <%@ include file="sysmanager_left.jsp" %>
         <div class="col-md-9">
             <table class="table table-striped"  style="text-align: center;">
             	<tr>

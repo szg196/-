@@ -6,11 +6,11 @@
             <div id="title-name-col">
                 <div class="box-app-col">
                     <span class="more-img"><img src="/60TeamProject_TransportRisk/img/more.png" width="9"></span>
-                    <span class="more-text"><strong>·</strong>&nbsp;&nbsp;<a href="/60TeamProject_TransportRisk/jsp/zdffls_qd.jsp">单证发放历史</a></span>
+                    <span class="more-text"><strong>·</strong>&nbsp;&nbsp;<a href="/60TeamProject_TransportRisk/jsp/documentshistory.jsp">单证发放历史</a></span>
                 </div>
                 <div class="box-pol-col">
                     <span class="more-img"><img src="/60TeamProject_TransportRisk/img/more.png" width="9"></span>
-                    <span class="more-text"><strong>·</strong>&nbsp;&nbsp;<a href="/60TeamProject_TransportRisk/jsp/zdsyqkcx_qd.jsp">单证使用情况查询</a></span>
+                    <span class="more-text"><strong>·</strong>&nbsp;&nbsp;<a href="/60TeamProject_TransportRisk/jsp/documentsuse.jsp">单证使用情况查询</a></span>
                 </div>
             </div>
 
