@@ -7,13 +7,14 @@
     <select id="selectBigType" resultType="BigType">
         select * from big_type
     </select>
-    <!--查询所有小类型-->
-    <select id="selectSmallType" resultType="SmallType">
-        select * from small_type
-    </select>
     <!--查询大类型对应的小类型信息-->
     <select id="selectSmallTypeByBigType" resultType="SmallType">
-        select * from small_type where bid=#{bid}
+        select * from small_type 
+        <where>
+        	<if test="bId!=null and bId>0">
+        		bigId=#{bId}
+        	</if>
+        </where> 
     </select>
     <!-- 查询所有条款分类 -->
     <select id="selectClauseTypes" resultType="ClauseType">

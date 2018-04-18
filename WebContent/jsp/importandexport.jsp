@@ -5,7 +5,7 @@
   <head>
     <title>My JSP 'applicationForm.jsp' starting page</title>
     <link rel="stylesheet" href="/60TeamProject_TransportRisk/css/bootstrap.min.css">
-    <script type="text/javascript" src="/60TeamProject_TransportRisk/js/bootstrap.min.js"></script>
+   <!--  <script type="text/javascript" src="/60TeamProject_TransportRisk/js/bootstrap.min.js"></script> -->
 	<link rel="stylesheet" type="text/css" href="/60TeamProject_TransportRisk/css/applicationForm.css">
 	<link rel="stylesheet" type="text/css" href="/60TeamProject_TransportRisk/css/jcktb_cyz.css">
 	<script type="text/javascript" src="/60TeamProject_TransportRisk/js/jquery-1.10.2.min.js"></script>
@@ -20,16 +20,16 @@
             <fieldset id="tjbInfo" >
                 <legend>投保人及被保险人信息</legend>
                 <div class="checkbox">
-                    <input type="checkbox" style="margin-left: 20px;zoom: 120%">
+                    <input id="checkBox" type="checkbox" style="margin-left: 20px;zoom: 120%">
                     <label class="tjbInfoLab" style="margin-top: 2px;margin-left: 23px; font-size: 13px;color: firebrick;font-weight: bold;">
                         被保险人和保险人相同
                     </label>
                 </div>
-                <form class="form-horizontal">
+                <form class="form-horizontal" onsubmit="false">
                     <div class="form-group">
                         <label for="tbrmc" class="col-sm-4 control-label">投保人名称</label>
                         <div class="col-sm-8">
-                            <input type="text" class="form-control input-sm" id="tbrmc" placeholder="投保人名称">
+                            <input  type="text" class="form-control input-sm" id="tbrmc" placeholder="投保人名称">
                         </div>
                     </div>
                     <div class="form-group">
@@ -100,15 +100,15 @@
                         <label for="tbrmc" class="col-sm-3 control-label">货物类型</label>
                     </div>
                     <div class="form-group" >
-                        <select class="col-sm-7 leftp" style=";margin-bottom: 10px">
-                            <option value="">无包装</option>
-                            <option value="">无包装</option>
+                        <select id="big-type" class="col-sm-7 leftp" style=";margin-bottom: 10px">
+                            
                         </select>
                         <label for="tbrmc" class="col-sm-3">大类列表</label>
-                        <select id="big-type" class="col-sm-7 leftp">
+                        <select id="small-type" class="col-sm-7 leftp">
                             
                         </select>
                         <label for="tbrmc" class="col-sm-3">小类列表</label>
+                       
                     </div>
                 </form>
             </fieldset>

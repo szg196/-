@@ -23,11 +23,6 @@ public class CommonServiceImpl implements CommonService{
 	}
 
 	@Override
-	public List<SmallType> selectSmallType() {
-		return commonMapper.selectSmallType();
-	}
-
-	@Override
 	public List<SmallType> selectSmallTypeByBigType(Integer bId) {
 		return commonMapper.selectSmallTypeByBigType(bId);
 	}

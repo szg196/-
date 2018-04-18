@@ -47,7 +47,7 @@
         <!-- 配置SQL映射文件信息 -->
         <property name="mapperLocations">
             <list>
-                <value>classpath:com/tangcco/mapper/insure/**/*.xml</value>
+                <value>classpath:com/tangcco/mapper/**/*.xml</value>
             </list>
         </property>
     </bean>
