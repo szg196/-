@@ -1,6 +1,8 @@
 $(function(){
 	//请求大类型数据
 	$("#big-type").load("/60TeamProject_TransportRisk/com/bigType");
+	//获取所有条款分类
+	getClauseTypes();
 	//大类型下拉框改变，对应改变小类型下拉框
 	$("#big-type").change(function() {
 		getSmallType();
@@ -12,6 +14,28 @@ function getSmallType() {
 	//请求小类型数据
 	$("#small-type").load("/60TeamProject_TransportRisk/com/smallTypeByBid",{bId:bId});
 }
+
+//获取所有条款分类
+function getClauseTypes() {
+	$.ajax({
+		url:"/60TeamProject_TransportRisk/com/selectClauseTypes",
+		type:"get",
+		dataType:"json",
+		success:function(result){
+			if(result != null){
+				$("#clause-type").html("");
+				var options = "<option value=\"0\">请选择</option>";
+				for (var i = 0; i < result.length; i++) {
+					options += "<option value=\""+result[i].id+"\">"+result[i].clauseType+"</option>";
+				}
+				$("#clause-type").html(options);
+			}
+		},error:function(result){
+			console.log(result);
+		}
+	});
+}
+
 
 //提交进出表单信息
 function submitImportExport() {
