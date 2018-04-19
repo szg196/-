@@ -9,11 +9,7 @@
     <script type="text/javascript" src="/60TeamProject_TransportRisk/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="/60TeamProject_TransportRisk/css/applicationForm.css">
     <script type="text/javascript" src="/60TeamProject_TransportRisk/js/jquery-1.10.2.min.js"></script>
-    <script type="text/javascript">
-    	$(function(){
-    		$("#dlList").load("http://localhost:8080/60TeamProject_TransportRisk/common/seletbigtype");
-    	});
-    </script>
+    <script type="text/javascript" src="/60TeamProject_TransportRisk/js/importandexport.js"></script>
   </head>
   
   <body>
@@ -76,14 +72,12 @@
                 </form>
                 <form class="form-horizontal">
                     货物类型 <br>
-                    <select name="dlList" id="dlList">
-                        <option value="0">0</option>
-                        <option value="1">1</option>
+                    <select  name="dlList" id="big-type">
+                        
                     </select>&nbsp;大类列表
                     <br>
-                    <select name="xlList" id="xlList">
-                        <option value="0">0</option>
-                        <option value="1">1</option>
+                    <select name="xlList" id="small-type">
+                        
                     </select>&nbsp;小类列表
                     <br>
                 </form>
