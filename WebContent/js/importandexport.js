@@ -79,7 +79,7 @@ function submitImportExport() {
 				alert("失败");
 			}
 		},error:function(error){
-			console.log(error);
+			console.log(error+"");
 		}
 	});
 	
