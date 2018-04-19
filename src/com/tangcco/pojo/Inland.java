@@ -4,7 +4,7 @@ package com.tangcco.pojo;
 //国内投保表实体类
 public class Inland {
 
-	private Integer id;// id主键
+	private String id;// id主键(投保单号)
 	private String tbName;// 投保人名称
 	private String tbAddress;// 投保人地址
 	private String btbName;// 被投保人名称
@@ -40,11 +40,11 @@ public class Inland {
 	private String code;// 自定义查询编码
 	private Integer status;// 状态
 
-	public Integer getId() {
+	public String getId() {
 		return id;
 	}
 
-	public void setId(Integer id) {
+	public void setId(String id) {
 		this.id = id;
 	}
 
