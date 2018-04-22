@@ -3,3 +3,5 @@
 <c:forEach var="item" items="${smallTypes}">
 	<option value="${item.id }">${item.typeName}</option>
 </c:forEach>
+
+

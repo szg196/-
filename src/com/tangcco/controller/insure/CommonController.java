@@ -11,7 +11,10 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 
 import com.tangcco.pojo.BigType;
+import com.tangcco.pojo.ClauseType;
+import com.tangcco.pojo.FuXian;
 import com.tangcco.pojo.SmallType;
+import com.tangcco.pojo.ZhuXian;
 import com.tangcco.service.insure.CommonService;
 
 @Controller
@@ -36,4 +39,38 @@ public class CommonController {
 		model.addAttribute("smallTypes",smallTypes);
 		return "ajaxcontext/smalltype";
 	}
+	
+	//查询所有条款分类
+	@RequestMapping("/selectClauseTypes")
+	@ResponseBody
+	public List<ClauseType> selectClauseTypes(){
+		List<ClauseType> clauseTypes = commonService.selectClauseTypes();
+		if(clauseTypes!=null && clauseTypes.size()>0){
+			return clauseTypes;
+		}
+		return null;
+	}
+	
+	//根据条款分类查询主线条款
+	@RequestMapping("/selectZhuXianByClauseType")
+	@ResponseBody
+	public List<ZhuXian> selectZhuXianByClauseType(Integer aId){
+		List<ZhuXian> list = commonService.selectZhuXianByClauseType(aId);
+		if(list!=null && list.size()>0){
+			return list;
+		}
+		return null;
+	}
+	
+	//根据主线id查询附加险条款
+	@RequestMapping("/selectFuXianByZhuXian")
+	@ResponseBody
+	public List<FuXian> selectFuXianByZhuXian(Integer zId){
+		List<FuXian> list = commonService.selectFuXianByZhuXian(zId);
+		if(list!=null && list.size()>0){
+			return list;
+		}
+		return null;
+	}
+	
 }
