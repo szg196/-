@@ -1,11 +1,7 @@
 package com.tangcco.dto;
 
 public class InsturanceSlipUpdateDTO {
-	private String upId; // 投保单号（前）
-	private String downId; // 投保单号（后）
-
-	private String upMoney; // 保险金额(前)
-	private String downMoney; // 保险金额(后)
+	private String id; // 投保单号
 
 	private String upSigningDate; // 签单日期(前)
 	private String downSigningDate; // 签单日期(后)
@@ -20,36 +16,12 @@ public class InsturanceSlipUpdateDTO {
 
 	private Integer status;// 状态
 
-	public String getUpId() {
-		return upId;
+	public String getId() {
+		return id;
 	}
 
-	public void setUpId(String upId) {
-		this.upId = upId;
-	}
-
-	public String getDownId() {
-		return downId;
-	}
-
-	public void setDownId(String downId) {
-		this.downId = downId;
-	}
-
-	public String getUpMoney() {
-		return upMoney;
-	}
-
-	public void setUpMoney(String upMoney) {
-		this.upMoney = upMoney;
-	}
-
-	public String getDownMoney() {
-		return downMoney;
-	}
-
-	public void setDownMoney(String downMoney) {
-		this.downMoney = downMoney;
+	public void setId(String id) {
+		this.id = id;
 	}
 
 	public String getUpSigningDate() {

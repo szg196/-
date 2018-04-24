@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+ "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.tangcco.mapper.insursupdate.InsturanceSlipUpdateMapper">
+	<select id="selectInlandInfo" resultType="Inland">
+		select * from Inland
+		where 1=1
+		<if test="id != null and id != ''">
+			and id like concat('%',#{id},'%')
+		</if>
+		<if
+			test="upSigningDate != null and upSigningDate != '' and downSigningDate != null and downSigningDate != ''">
+			and signingDate between upSigningDate and downSigningDate
+		</if>
+		<if test="transportName != null and transportName != ''">
+			and transportName like concat('%',#{transportName},'%')
+		</if>
+		<if test="lineArrive != null and lineArrive != ''">
+			and lineArrive like concat('%',#{lineArrive},'%')
+		</if>
+		<if test="code != null and code != ''">
+			and code like concat('%',#{code},'%')
+		</if>
+		<if test="cNum != null and cNum != ''">
+			and cNum like concat('%',#{cNum},'%')
+		</if>
+		<if test="status != null">
+			and status = #{status}
+		</if>
+		limit #{beginIndex},#{endIndex}
+	</select>
+
+	<select id="selectImportExportInfo" resultType="ImportExport">
+		select * from ImportExport
+		where 1=1
+		<if test="id != null and id != ''">
+			and id like concat('%',#{id},'%')
+		</if>
+		<if
+			test="upSigningDate != null and upSigningDate != '' and downSigningDate != null and downSigningDate != ''">
+			and signingDate between upSigningDate and downSigningDate
+		</if>
+		<if test="transportName != null and transportName != ''">
+			and transportName like concat('%',#{transportName},'%')
+		</if>
+		<if test="lineArrive != null and lineArrive != ''">
+			and lineArrive like concat('%',#{lineArrive},'%')
+		</if>
+		<if test="code != null and code != ''">
+			and code like concat('%',#{code},'%')
+		</if>
+		<if test="cNum != null and cNum != ''">
+			and cNum like concat('%',#{cNum},'%')
+		</if>
+		<if test="status != null">
+			and status = #{status}
+		</if>
+		limit #{beginIndex},#{endIndex}
+	</select>
+</mapper>

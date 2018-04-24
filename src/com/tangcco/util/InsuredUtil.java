@@ -1,5 +1,6 @@
 //by 罗皖西
 package com.tangcco.util;
+
 //网上投保工具类
 public class InsuredUtil {
 	// 进出口订单号前缀importExportNum

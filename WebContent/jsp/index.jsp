@@ -1,18 +1,23 @@
 <%@ page language="java" import="java.util.*" pageEncoding="UTF-8"%>
-
 <html>
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>Insert title here</title>
 </head>
 <body>
+<head>
 <title>My JSP 'Test.jsp' starting page</title>
-<link href="/60TeamProject_TransportRisk/css/bootstrap.min.css" rel="stylesheet">
-<link href="/60TeamProject_TransportRisk/css/home_zlf.css" rel="stylesheet">
-<script src="/60TeamProject_TransportRisk/js/jquery-1.10.2.min.js" type="text/javascript"></script>
-<script src="/60TeamProject_TransportRisk/js/bootstrap.min.js" type="text/javascript"></script>
-<script src="/60TeamProject_TransportRisk/js/jquery-1.8.3.min.js" type="text/javascript"></script>
-<script src="/60TeamProject_TransportRisk/js/home_zlf.js" type="text/javascript"></script>
+<link href="/60TeamProject_TransportRisk/css/bootstrap.min.css"
+	rel="stylesheet">
+<link href="/60TeamProject_TransportRisk/css/home_zlf.css"
+	rel="stylesheet">
+<script src="/60TeamProject_TransportRisk/js/jquery-1.10.2.min.js"
+	type="text/javascript"></script>
+<script src="/60TeamProject_TransportRisk/js/bootstrap.min.js"
+	type="text/javascript"></script>
+<script src="/60TeamProject_TransportRisk/js/jquery-1.8.3.min.js"
+	type="text/javascript"></script>
+<script src="/60TeamProject_TransportRisk/js/home_zlf.js"
+	type="text/javascript"></script>
 
 <script type="text/javascript">
 	$(function() {
@@ -146,7 +151,8 @@
 			</div>
 			<div id="foot_center_t">
 				<span>Copynignt@2006PICC Property and Casualty Company
-					Limited.All Rights Reserved</span> <img src="/60TeamProject_TransportRisk/img/lin/guohuijpg.jpg">
+					Limited.All Rights Reserved</span> <img
+					src="/60TeamProject_TransportRisk/img/lin/guohuijpg.jpg">
 			</div>
 			<div>
 				<a href="#">京ICP证020322号</a>

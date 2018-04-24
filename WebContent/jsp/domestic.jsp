@@ -70,7 +70,7 @@
 					<legend>货物信息</legend>
 					<form class="form-horizontal">
 						发票号/运单号 <br>
-						<textarea class="form-control" rows=7"></textarea>
+						<textarea class="form-control" rows="7"></textarea>
 					</form>
 					<form class="form-horizontal">
 						货物名称 <br>
