@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+	PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+	"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.tangcco.mapper.message_szg.MessageManagerMapper">
+	<!-- 查询国内投保已通过审核的投保-->
+	<select id="searchInland" resultType="com.tangcco.pojo.Inland">
+		select * from inland where status=1
+	</select>
+	
+	<!-- 查询进出口已通过审核的投保 -->
+	<select id="searchImport" resultType="com.tangcco.pojo.ImportExport">
+		select * from import_export where status=1
+	</select>
+</mapper>
