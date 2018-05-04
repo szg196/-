@@ -13,13 +13,13 @@ import com.tangcco.pojo.Inland;
 import com.tangcco.service.message_szg.MessageManagerService;
 
 @Controller
-@RequestMapping("message_szg")
+//@RequestMapping("message_szg")
 public class MessageManagement_szg_Controller {
 
 	@Resource
 	private MessageManagerService service;
 
-	@RequestMapping("message")
+	@RequestMapping("/message")
 	public String message(Model model) {
 		List<Inland> listIn = service.searchInland();
 		List<ImportExport> listIm = service.searchImport();
